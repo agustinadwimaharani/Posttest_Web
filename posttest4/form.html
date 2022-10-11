@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Form Pendataan</title>
+</head>
+<body>
+    <h2>Silahkan Mengisi Data Diri Sebelum Berbelanja</h2>
+    <form action="hasil.php" method="POST">
+        <table>
+            <tr>   
+                <td>Merk Tas</td>
+                <td><input type="text" name="merk" placeholder="Merk Tas"></td>
+            </tr>
+            <tr>   
+                <td>Nama Tas</td>
+                <td><input type="text" name="nama" placeholder="Nama Tas"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Stok</td>
+            <td><input type="date" name="tanggal_stok"></td>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td><input type="radio" name="size" value="S">S
+                <input type="radio" name="size" value="M">M</td>
+            </tr>
+            <tr>
+                <td>Jumlah Stok</td>
+                <td><input type="number" name="jumlah_stok" placeholder="Jumlah Stok"></td>
+            </tr>
+            <tr>   
+                <td>Warna</td>
+                <td><input type="text" name="warna" placeholder="Warna"></td>
+            </tr>
+            <br>
+                <td><button type="submit" name="submit">Submit </button></td>
+        </table>
+    </form>
+</body>
+</html>

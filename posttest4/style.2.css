@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+
+body{
+    padding: 10px;
+    font-size: 15px;
+    background: rgb(246, 211, 211);
+    color: rgb(96, 82, 82);
+    position: absolute;
+    padding: auto;
+
+}
+
+h2{
+    color: rgb(140, 20, 20);
+    bottom: 20px;
+}
+
+h3{
+    color: rgb(39, 41, 42);
+}
+
+.hasil{
+    font-size: 15px;
+    background: rgb(246, 211, 211);
+    color: rgb(96, 82, 82);
+    position: absolute;
+    padding: auto;
+
+}
